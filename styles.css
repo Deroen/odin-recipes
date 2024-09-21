@@ -1,0 +1,13 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#main-title {
+    font-size: large;
+    color: red;
+}
+
+.burger.margherita-pizza.spicy-udon {
+    font-size: medium;
+    color: green;
+}
