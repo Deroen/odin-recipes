@@ -19,6 +19,7 @@ a:hover {
     font-size: large;
     color: red;
     font-weight: bolder;
+    text-transform: uppercase;
 }
 
 .link {
@@ -28,6 +29,7 @@ a:hover {
 .recipe-title {
     font-weight: bolder;
     color: blue;
+    text-transform: uppercase;
 }
 
 .ingredients-title, .description-title, .steps-title {
@@ -35,7 +37,11 @@ a:hover {
     color: purple;
 }
 
-.recipe-description, .recipe-ingredients, .recipe-steps {
+#recipe-description, .recipe-ingredients, .recipe-steps {
     font-size: medium;
+}
+
+.sauce-title, .noodles-title {
+    color: rgb(204, 121, 243);
 }
 
