@@ -2,12 +2,21 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+a:visited {
+    text-decoration: none;
+    color: green;
+}
+
+a:hover {
+    color:orange;
+}
+
 #main-title {
     font-size: large;
     color: red;
+    font-weight: bolder;
 }
 
-.burger.margherita-pizza.spicy-udon {
+.link {
     font-size: medium;
-    color: green;
 }
