@@ -11,6 +11,10 @@ a:hover {
     color:orange;
 }
 
+::selection {
+    background: yellow;
+}
+
 #main-title {
     font-size: large;
     color: red;
@@ -20,3 +24,18 @@ a:hover {
 .link {
     font-size: medium;
 }
+
+.recipe-title {
+    font-weight: bolder;
+    color: blue;
+}
+
+.ingredients-title, .description-title, .steps-title {
+    font-weight: bold;
+    color: purple;
+}
+
+.recipe-description, .recipe-ingredients, .recipe-steps {
+    font-size: medium;
+}
+
