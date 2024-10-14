@@ -1,14 +1,26 @@
 * {
     font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    display: contents;
+}
+
+ul > li {
+
+     padding: 0;
+     margin: 0; 
+}
+
+.homepage {
+    text-align: center;
 }
 
 a:visited {
     text-decoration: none;
-    color: green;
-}
-
-a:hover {
-    color:orange;
+    color: white;
 }
 
 ::selection {
@@ -16,14 +28,41 @@ a:hover {
 }
 
 #main-title {
-    font-size: large;
-    color: red;
+    font-size: 50px;
+    color: rebeccapurple;
     font-weight: bolder;
+    text-transform: uppercase;
+    padding: 50px;
+    background-color: black;
+    width: 500px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 30px;
+    border: 1px solid yellow;
+}
+
+ul > li  {
     text-transform: uppercase;
 }
 
+a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 25px;
+    background-color: grey;
+    width: 500px;
+    margin: 20px auto;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: 1px solid yellow;
+}
+
+a:hover {
+    background-color: black;
+}
+
 .link {
-    font-size: medium;
+    font-size: 25px;
 }
 
 .recipe-title {
